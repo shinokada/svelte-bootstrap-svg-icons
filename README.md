@@ -6,12 +6,12 @@
 1660+ SVG file icon components for Svelte. Svelte-bootstrap-svg-icons support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/remix1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/remix2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/remix3.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/remix4.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/remix5.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/remix6.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap1.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap3.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap4.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap5.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap6.webp" />
 </p>
 
 ## Icon name list
@@ -26,7 +26,7 @@ npm i -D svelte-bootstrap-svg-icons
 
 ## REPL
 
-[Demo](https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0)
+[Demo](https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0)
 
 ## Usages
 
