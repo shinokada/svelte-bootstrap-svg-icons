@@ -1,5 +1,5 @@
 {
-	"name": "svelte-bootstrap",
+	"name": "svelte-bootstrap-svg-icons",
 	"version": "0.1.3",
 	"description": "Svelte file icon components",
 	"author": {
@@ -7,8 +7,8 @@
 		"email": "connect@codewithshin.com",
 		"url": "https://blog.codewithshin.com"
 	},
-	"bugs": "https://github.com/shinokada/svelte-bootstrap/issues",
-	"homepage": "https://github.com/shinokada/svelte-bootstrap",
+	"bugs": "https://github.com/shinokada/svelte-bootstrap-svg-icons/issues",
+	"homepage": "https://github.com/shinokada/svelte-bootstrap-svg-icons",
 	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -44,6 +44,6 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/shinokada/svelte-bootstrap"
+		"url": "https://github.com/shinokada/svelte-bootstrap-svg-icons"
 	}
 }
