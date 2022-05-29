@@ -10,8 +10,6 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap2.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap3.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap4.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap5.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap6.webp" />
 </p>
 
 ## Icon name list
@@ -35,15 +33,13 @@ In a svelte file:
 ```html
 <script>
 	import {
-		BankFillBUILDINGS,
-		MailDownloadFillBUSINESS,
-		InboxUnarchiveLineBUSINESS
+		BadgeAr,
+		ClipboardFill
 	} from 'svelte-bootstrap-svg-icons';
 </script>
 
-<BankFillBUILDINGS />
-<MailDownloadFillBUSINESS />
-<InboxUnarchiveLineBUSINESS />
+<BadgeAr />
+<ClipboardFill />
 ```
 
 ## Size
@@ -51,9 +47,8 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<BankFillBUILDINGS size="40" />
-<MailDownloadFillBUSINESS size="40" />
-<InboxUnarchiveLineBUSINESS size="40" />
+<BadgeAr size="40" />
+<ClipboardFill size="40" />
 ```
 
 ## CSS HEX Colors
@@ -61,9 +56,8 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BankFillBUILDINGS color="#c61515" />
-<MailDownloadFillBUSINESS color="#3759e5" />
-<InboxUnarchiveLineBUSINESS color="#3fe537" />
+<BadgeAr color="#c61515" />
+<ClipboardFill color="#3759e5" />
 ```
 
 ## CSS framworks suport
@@ -73,13 +67,13 @@ Use the `class` prop to change size, colors and add additional css.
 Tailwind CSS example:
 
 ```html
-<BankFillBUILDINGS class="h-24 w-24 text-blue-700 mr-4" />
+<BadgeAr class="h-24 w-24 text-blue-700 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
-<BankFillBUILDINGS class="position-absolute top-0 px-1" />
+<BadgeAr class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -89,16 +83,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<BankFillBUILDINGS class="text-blue-700 dark:text-red-500" />
+<BadgeAr class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `Svelte` has `aria-label="svelte"`.
+All icons have aria-label. For example `BadgeAr` has `aria-label="badge ar"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<BankFillBUILDINGS ariaLabel="Awesome Svelte" />
+<BadgeAr ariaLabel="Awesome Badge" />
 ```
 
 ## Passing down other attributes
@@ -106,31 +100,31 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<BankFillBUILDINGS tabindex="0" />
+<BadgeAr tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
 <script>
-	import { BankFillBUILDINGS } from 'svelte-bootstrap-svg-icons';
+	import { BadgeAr } from 'svelte-bootstrap-svg-icons';
 </script>
 
-<svelte:component this="{BankFillBUILDINGS}" />
+<svelte:component this="{BadgeAr}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-	import { BankFillBUILDINGS } from 'svelte-bootstrap-svg-icons';
+	import { BadgeAr } from 'svelte-bootstrap-svg-icons';
 	import { onMount } from 'svelte';
 	const props = {
 		size: '50',
 		color: '#ff0000'
 	};
 	onMount(() => {
-		const icon = new BankFillBUILDINGS({ target: document.body, props });
+		const icon = new BadgeAr({ target: document.body, props });
 	});
 </script>
 ```
@@ -144,19 +138,19 @@ Use `import * as Icon from 'svelte-bootstrap-svg-icons`.
 	import * as Icon from 'svelte-bootstrap-svg-icons';
 </script>
 
-<Icon.BankFillBUILDINGS />
-<Icon.MailDownloadFillBUSINESS />
+<Icon.BadgeAr />
+<Icon.ClipboardFill />
 
 <h1>Size</h1>
-<Icon.BankFillBUILDINGS size="30" />
-<Icon.MailDownloadFillBUSINESS size="40" />
+<Icon.BadgeAr size="30" />
+<Icon.ClipboardFill size="40" />
 
 <h1>CSS HEX color</h1>
-<Icon.BankFillBUILDINGS color="#c61515" size="40" />
+<Icon.BadgeAr color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
-<Icon.BankFillBUILDINGS class="text-blue-500" />
-<Icon.MailDownloadFillBUSINESS class="text-pink-700" />
+<Icon.BadgeAr class="text-blue-500" />
+<Icon.ClipboardFill class="text-pink-700" />
 ```
 
 ## Other icons
