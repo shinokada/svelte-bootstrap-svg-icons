@@ -12,6 +12,10 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap4.webp" />
 </p>
 
+## Original source
+
+[twbs/icons](https://github.com/twbs/icons)
+
 ## Icon name list
 
 [Icon list](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md)
@@ -32,10 +36,7 @@ In a svelte file:
 
 ```html
 <script>
-	import {
-		BadgeAr,
-		ClipboardFill
-	} from 'svelte-bootstrap-svg-icons';
+	import { BadgeAr, ClipboardFill } from 'svelte-bootstrap-svg-icons';
 </script>
 
 <BadgeAr />
@@ -47,8 +48,7 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<BadgeAr size="40" />
-<ClipboardFill size="40" />
+<BadgeAr size="40" /> <ClipboardFill size="40" />
 ```
 
 ## CSS HEX Colors
@@ -56,8 +56,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BadgeAr color="#c61515" />
-<ClipboardFill color="#3759e5" />
+<BadgeAr color="#c61515" /> <ClipboardFill color="#3759e5" />
 ```
 
 ## CSS framworks suport
