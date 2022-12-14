@@ -12,14 +12,6 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap4.webp" />
 </p>
 
-## Original source
-
-[twbs/icons](https://github.com/twbs/icons)
-
-## Icon name list
-
-[Icon list](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md)
-
 ## Installation
 
 ```sh
@@ -29,6 +21,10 @@ npm i -D svelte-bootstrap-svg-icons
 ## REPL
 
 [Demo](https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0)
+
+## Icon name list
+
+[Icon list](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md)
 
 ## Usages
 
@@ -151,6 +147,10 @@ Use `import * as Icon from 'svelte-bootstrap-svg-icons`.
 <Icon.BadgeAr class="text-blue-500" />
 <Icon.ClipboardFill class="text-pink-700" />
 ```
+
+## Original source
+
+[twbs/icons](https://github.com/twbs/icons)
 
 ## Other icons
 
