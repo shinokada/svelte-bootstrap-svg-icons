@@ -1,6 +1,10 @@
 <h1 align="center">Svelte-Bootstrap-SVG-Icons</h1>
 
+<p align="center">
+<a href="https://shinokada.github.io/svelte-bootstrap-svg-icons/">Svelte-Bootstrap-SVG-Icons</a>
+</p>
 
+<p align="center">
 <a href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-bootstrap-svg-icons" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-bootstrap-svg-icons" alt="License"></a>
