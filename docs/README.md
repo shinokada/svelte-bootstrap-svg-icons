@@ -40,7 +40,7 @@ In a svelte file:
 
 ```html
 <script>
-	import { BadgeAr, ClipboardFill } from 'svelte-bootstrap-svg-icons';
+  import { BadgeAr, ClipboardFill } from 'svelte-bootstrap-svg-icons';
 </script>
 
 <BadgeAr />
@@ -110,7 +110,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { BadgeAr } from 'svelte-bootstrap-svg-icons';
+  import { BadgeAr } from 'svelte-bootstrap-svg-icons';
 </script>
 
 <svelte:component this="{BadgeAr}" />
@@ -120,15 +120,15 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { BadgeAr } from 'svelte-bootstrap-svg-icons';
-	import { onMount } from 'svelte';
-	const props = {
-		size: '50',
-		color: '#ff0000'
-	};
-	onMount(() => {
-		const icon = new BadgeAr({ target: document.body, props });
-	});
+  import { BadgeAr } from 'svelte-bootstrap-svg-icons';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50',
+    color: '#ff0000'
+  };
+  onMount(() => {
+    const icon = new BadgeAr({ target: document.body, props });
+  });
 </script>
 ```
 
@@ -138,7 +138,7 @@ Use `import * as Icon from 'svelte-bootstrap-svg-icons`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-bootstrap-svg-icons';
+  import * as Icon from 'svelte-bootstrap-svg-icons';
 </script>
 
 <Icon.BadgeAr />
