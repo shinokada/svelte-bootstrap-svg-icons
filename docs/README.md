@@ -1,7 +1,11 @@
-# Svelte-Bootstrap-SVG-Icons
+<h1 align="center">Svelte-Bootstrap-SVG-Icons</h1>
 
-[![npm version](https://badgen.net/npm/v/svelte-bootstrap-svg-icons)](https://www.npmjs.com/package/svelte-bootstrap-svg-icons)
-[![license](https://badgen.net/npm/license/svelte-bootstrap-svg-icons)](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/LICENSE)
+
+<a href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-bootstrap-svg-icons" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-bootstrap-svg-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-bootstrap-svg-icons.svg" alt="npm"></a>
+</p>
 
 1660+ SVG file icon components for Svelte. Svelte-bootstrap-svg-icons support major CSS frameworks using the `class` props.
 
