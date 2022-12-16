@@ -28,11 +28,11 @@ npm i -D svelte-bootstrap-svg-icons
 
 ## REPL
 
-[Demo](https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0)
+[Demo](https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.55.0)
 
 ## Icon name list
 
-[Icon list](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/docs/icon-list.md)
+[Icon list](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md)
 
 ## Usages
 

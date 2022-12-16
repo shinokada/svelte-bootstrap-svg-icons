@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.9](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.8...v0.1.9) (2022-12-15)
 
-
 ### Bug Fixes
 
-* remove Svelte README ([1aa965d](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/1aa965d7ddba6b986ddb8b93d87c4e0631dc27bd))
+- remove Svelte README ([1aa965d](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/1aa965d7ddba6b986ddb8b93d87c4e0631dc27bd))
 
 ### [0.1.8](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.7...v0.1.8) (2022-12-15)
 
