@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Bootstrap-SVG-Icons</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-bootstrap-svg-icons/">Svelte-Bootstrap-SVG-Icons</a>
+<a href="https://svelte-bootstrap-svg-icons.codewithshin.com/">Svelte-Bootstrap-SVG-Icons</a>
 </p>
 
 <p align="center">

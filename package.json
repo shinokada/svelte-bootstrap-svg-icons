@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-bootstrap-svg-icons/issues",
-  "homepage": "https://shinokada.github.io/svelte-bootstrap-svg-icons",
+  "homepage": "https://svelte-bootstrap-svg-icons.codewithshin.com",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
