@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.12...v0.1.13) (2023-01-30)
+
+
+### Features
+
+* add pwa ([5531dbe](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/5531dbea6c2de72042f7d1a90333a6b65e5f40d3))
+
+
+### Bug Fixes
+
+* icon list link ([63f4d93](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/63f4d93918c3c1048fb24c271a678fee64bd202a))
+* icon list link and verion update ([b501639](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/b5016394b1b621cbfa321b4b924b2de0645cb76d))
+* service-worker version update ([b4cf0a1](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/b4cf0a1b515463810e1953162caf45cb38baecd7))
+
 ### [0.1.12](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.11...v0.1.12) (2022-12-25)
 
 ### Bug Fixes
