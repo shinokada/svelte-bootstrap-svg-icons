@@ -1,4 +1,4 @@
-<h1 align="center">Svelte-Bootstrap-SVG-Icons</h1>
+<h1 align="center">Svelte Bootstrap SVG Icons</h1>
 
 <p align="center">
 <a href="https://svelte-bootstrap-svg-icons.codewithshin.com/">Svelte-Bootstrap-SVG-Icons</a>
