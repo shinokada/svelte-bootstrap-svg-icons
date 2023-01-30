@@ -35,6 +35,8 @@ npm i -D svelte-bootstrap-svg-icons
 
 [Icon list](https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md)
 
+[Icon list](/icon-list.md)
+
 ## Usages
 
 In a svelte file:
