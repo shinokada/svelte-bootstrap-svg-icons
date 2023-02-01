@@ -15,10 +15,7 @@
 1660+ SVG file icon components for Svelte. Svelte-bootstrap-svg-icons support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap3.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-bootstrap-svg-icons/main/static/images/bootstrap4.webp" />
+<img width="650" src="/static/images/bootstrap-optimized-650-1050.png" />
 </p>
 
 ## Installation
@@ -34,6 +31,10 @@ npm i -D svelte-bootstrap-svg-icons
 ## Icon name list
 
 [Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -165,7 +166,7 @@ Use `import * as Icon from 'svelte-bootstrap-svg-icons`.
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## Experience lightning-fast browsing and offline access with Our PWA
+## PWA: Fast & Offline
 
 This website can be downloaded and installed on your device for offline access as a Progressive Web App.
 

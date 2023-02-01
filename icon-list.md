@@ -1668,4 +1668,7 @@
 - Youtube.svelte
 - ZoomIn.svelte
 - ZoomOut.svelte
-- index.js
+
+## Back to Home
+
+[Back to Home](/)
