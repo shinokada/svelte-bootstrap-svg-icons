@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.14...v0.1.15) (2023-02-01)
+
+
+### Bug Fixes
+
+* badges target, height, and add links to crossOriginLinks ([fa78da7](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/fa78da7d7bc9642ce88bf2e883fabc23e6657508))
+
 ### [0.1.14](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.13...v0.1.14) (2023-02-01)
 
 ### Bug Fixes
