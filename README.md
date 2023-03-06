@@ -58,10 +58,28 @@ For faster compilation, you can import the icon directly.
 
 ```html
 <script>
-  import BadgeAr from 'svelte-bootstrap-svg-icons/BadgeAr';
+  import BadgeAr from 'svelte-bootstrap-svg-icons/BadgeAr.svelte';
 </script>
 
 <BadgeAr />
+```
+
+As of March 2023, the `typescript@beta` version is now available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add the following code to your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "bundler"
+  }
+}
 ```
 
 ## Size
@@ -77,7 +95,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BadgeAr color="#c61515" /> 
+<BadgeAr color="#c61515" />
 ```
 
 ## CSS framworks suport
