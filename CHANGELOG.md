@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.2.0](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.15...v0.2.0) (2023-02-22)
 
-
 ### Features
 
-* add microsoft webmaster tools meta tag ([446ede6](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/446ede62ddc4ba0ba6d93b2420d9ec0638f37b00))
-* add scripts/package-json-writer.js ([b419bc2](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/b419bc2626f9fc6422afa29a46435a1d3088c06a))
-* new svelte packaging system ([3a3b17b](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/3a3b17bdee8b46121edca33c1c60d9d182c0428f))
-
+- add microsoft webmaster tools meta tag ([446ede6](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/446ede62ddc4ba0ba6d93b2420d9ec0638f37b00))
+- add scripts/package-json-writer.js ([b419bc2](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/b419bc2626f9fc6422afa29a46435a1d3088c06a))
+- new svelte packaging system ([3a3b17b](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/3a3b17bdee8b46121edca33c1c60d9d182c0428f))
 
 ### Bug Fixes
 
-* update index.html ([1e38931](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/1e38931e68dc9c4be6bb121dc99099064878ef1f))
+- update index.html ([1e38931](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/1e38931e68dc9c4be6bb121dc99099064878ef1f))
 
 ### [0.1.15](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.1.14...v0.1.15) (2023-02-01)
 

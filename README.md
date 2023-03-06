@@ -44,11 +44,24 @@ In a svelte file:
 
 ```html
 <script>
-  import { BadgeAr, ClipboardFill } from 'svelte-bootstrap-svg-icons';
+  import { BadgeAr } from 'svelte-bootstrap-svg-icons';
 </script>
 
 <BadgeAr />
-<ClipboardFill />
+```
+
+## Faster compiling
+
+**This require `"typescript": "^5.0.0"`.**
+
+For faster compilation, you can import the icon directly.
+
+```html
+<script>
+  import BadgeAr from 'svelte-bootstrap-svg-icons/BadgeAr';
+</script>
+
+<BadgeAr />
 ```
 
 ## Size
@@ -56,7 +69,7 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<BadgeAr size="40" /> <ClipboardFill size="40" />
+<BadgeAr size="40" />
 ```
 
 ## CSS HEX Colors
@@ -64,7 +77,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BadgeAr color="#c61515" /> <ClipboardFill color="#3759e5" />
+<BadgeAr color="#c61515" /> 
 ```
 
 ## CSS framworks suport
@@ -108,6 +121,14 @@ You can pass other attibutes as well.
 
 ```html
 <BadgeAr tabindex="0" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<BadgeAr tabindex="-1" />
 ```
 
 ## Using svelte:component
