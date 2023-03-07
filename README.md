@@ -52,8 +52,6 @@ In a svelte file:
 
 ## Faster compiling
 
-**This require `"typescript": "^5.0.0"`.**
-
 For faster compilation, you can import the icon directly.
 
 ```html
@@ -64,6 +62,7 @@ For faster compilation, you can import the icon directly.
 <BadgeAr />
 ```
 
+If you are TypeScript user, **install typescript version 5.0.0 or above.**
 
 As of March 2023, the `typescript@beta` version is now available:
 
