@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.2](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.3.1...v0.3.2) (2023-03-06)
 
-
 ### Features
 
-* add script add-exports and update README ([bbb086c](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/bbb086cf0bc39440370575300e40c7b331eb1dd5))
+- add script add-exports and update README ([bbb086c](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/bbb086cf0bc39440370575300e40c7b331eb1dd5))
 
 ### [0.3.1](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.2.0...v0.3.1) (2023-03-06)
 
