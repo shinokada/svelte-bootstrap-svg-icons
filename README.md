@@ -56,7 +56,7 @@ In a svelte file:
 
 ## Faster compiling
 
-If you only need to use a single icon from this library in your Svelte app, importing it directly. This can help optimize compilation speed. 
+If you only need to use a single icon from this library in your Svelte app, importing it directly. This can help optimize compilation speed.
 By importing only what you need, you can reduce the amount of code that needs to be processed, which can improve overall performance.
 
 ```html
