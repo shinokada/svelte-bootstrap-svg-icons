@@ -1,20 +1,3 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'grid 1x2 fill';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width={size}
-  height={size}
-  class="bi bi-grid-1x2-fill"
-  fill={color}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 16 16"
->
-  <path
-    d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5z"
-  />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="grid 1x2 fill" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-grid-1x2-fill" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
+  <path d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5z"/>
 </svg>

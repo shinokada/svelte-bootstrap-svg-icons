@@ -1,20 +1,3 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'play fill';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width={size}
-  height={size}
-  class="bi bi-play-fill"
-  fill={color}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 16 16"
->
-  <path
-    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-  />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="play fill" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-play-fill" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
+  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
 </svg>
