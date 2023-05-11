@@ -14,7 +14,7 @@
 <a href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-bootstrap-svg-icons.svg" alt="npm" height="25"></a>
 </p>
 
-1660+ SVG file icon components for Svelte. Svelte-bootstrap-svg-icons support major CSS frameworks using the `class` props.
+1950+ SVG file icon components for Svelte. Svelte-bootstrap-svg-icons support major CSS frameworks using the `class` props.
 
 To improve compilation speed, import the icon directly. This can help reduce processing time and improve overall performance.
 
