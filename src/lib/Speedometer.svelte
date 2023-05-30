@@ -33,7 +33,7 @@
 </svg>
 <!--
 @component
-[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+[Go to Document](https://svelte-bootstrap-svg-icons.codewithshin.com/)
 ## Props
 @prop size = '16';
 @prop color = 'currentColor';
