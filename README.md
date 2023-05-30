@@ -86,6 +86,10 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
+
 ## Size
 
 Use the `size` prop to change the size of icons.
@@ -157,15 +161,15 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 All icons have the following events:
 
-```
-on:click
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-on:blur
-on:focus
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Using svelte:component
 
