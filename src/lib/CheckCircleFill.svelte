@@ -1,3 +1,43 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="check circle fill" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-check-circle-fill" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
-  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+<script>
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'check circle fill';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class="bi bi-check-circle-fill"
+  fill={color}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
+  viewBox="0 0 16 16"
+>
+  <path
+    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+  />
 </svg>
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '16';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->

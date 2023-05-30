@@ -1,3 +1,43 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="command" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-command" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
-  <path d="M3.5 2A1.5 1.5 0 0 1 5 3.5V5H3.5a1.5 1.5 0 1 1 0-3zM6 5V3.5A2.5 2.5 0 1 0 3.5 6H5v4H3.5A2.5 2.5 0 1 0 6 12.5V11h4v1.5a2.5 2.5 0 1 0 2.5-2.5H11V6h1.5A2.5 2.5 0 1 0 10 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1 1 12.5 5H11zm0 6h1.5a1.5 1.5 0 1 1-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 1 1 3.5 11H5z"/>
+<script>
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'command';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class="bi bi-command"
+  fill={color}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
+  viewBox="0 0 16 16"
+>
+  <path
+    d="M3.5 2A1.5 1.5 0 0 1 5 3.5V5H3.5a1.5 1.5 0 1 1 0-3zM6 5V3.5A2.5 2.5 0 1 0 3.5 6H5v4H3.5A2.5 2.5 0 1 0 6 12.5V11h4v1.5a2.5 2.5 0 1 0 2.5-2.5H11V6h1.5A2.5 2.5 0 1 0 10 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1 1 12.5 5H11zm0 6h1.5a1.5 1.5 0 1 1-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 1 1 3.5 11H5z"
+  />
 </svg>
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '16';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->

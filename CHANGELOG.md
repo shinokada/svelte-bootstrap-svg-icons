@@ -4,15 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.1](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.3.3...v0.4.1) (2023-05-11)
 
-
 ### Features
 
-* add events ([75f232d](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/75f232def9ced9b8d7eea25010e56288aff31bee))
-
+- add events ([75f232d](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/75f232def9ced9b8d7eea25010e56288aff31bee))
 
 ### Bug Fixes
 
-* remove husky ([df59e54](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/df59e54ead9af6cfe2283ff2c92d56094aaacc01))
+- remove husky ([df59e54](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/df59e54ead9af6cfe2283ff2c92d56094aaacc01))
 
 ### [0.3.3](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.3.2...v0.3.3) (2023-03-07)
 

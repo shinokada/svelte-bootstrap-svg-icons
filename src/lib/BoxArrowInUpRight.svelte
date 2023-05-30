@@ -1,4 +1,48 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="box arrow in up right" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-box-arrow-in-up-right" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
-  <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+<script>
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'box arrow in up right';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class="bi bi-box-arrow-in-up-right"
+  fill={color}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
+  viewBox="0 0 16 16"
+>
+  <path
+    fill-rule="evenodd"
+    d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"
+  />
 </svg>
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '16';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->

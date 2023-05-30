@@ -1,3 +1,43 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="credit card fill" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-credit-card-fill" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
-  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0V4zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"/>
+<script>
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'credit card fill';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class="bi bi-credit-card-fill"
+  fill={color}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
+  viewBox="0 0 16 16"
+>
+  <path
+    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0V4zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"
+  />
 </svg>
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '16';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->

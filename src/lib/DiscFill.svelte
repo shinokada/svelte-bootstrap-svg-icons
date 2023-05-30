@@ -1,3 +1,43 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="disc fill" </script><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}"  class="bi bi-disc-fill" fill={color} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus viewBox="0 0 16 16">
-  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-6 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0zM4 8a4 4 0 0 1 4-4 .5.5 0 0 0 0-1 5 5 0 0 0-5 5 .5.5 0 0 0 1 0zm9 0a.5.5 0 1 0-1 0 4 4 0 0 1-4 4 .5.5 0 0 0 0 1 5 5 0 0 0 5-5z"/>
+<script>
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'disc fill';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class="bi bi-disc-fill"
+  fill={color}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
+  viewBox="0 0 16 16"
+>
+  <path
+    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-6 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0zM4 8a4 4 0 0 1 4-4 .5.5 0 0 0 0-1 5 5 0 0 0-5 5 .5.5 0 0 0 1 0zm9 0a.5.5 0 1 0-1 0 4 4 0 0 1-4 4 .5.5 0 0 0 0 1 5 5 0 0 0 5-5z"
+  />
 </svg>
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '16';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->
