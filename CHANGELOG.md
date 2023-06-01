@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.5](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.4...v0.4.5) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([0de6bc5](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/0de6bc5832ed816cbd60e46cea7b32cd497c7216))
+
 ### [0.4.4](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.3...v0.4.4) (2023-05-30)
 
 
