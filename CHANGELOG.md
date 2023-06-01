@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.5](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.4...v0.4.5) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([0de6bc5](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/0de6bc5832ed816cbd60e46cea7b32cd497c7216))
+- add || ^4.0.0 to peerDependencies ([0de6bc5](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/0de6bc5832ed816cbd60e46cea7b32cd497c7216))
 
 ### [0.4.4](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.3...v0.4.4) (2023-05-30)
 
-
 ### Bug Fixes
 
-* doc link ([346b8f8](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/346b8f8ef5aa10229ba3c5200faf6590aa26f180))
+- doc link ([346b8f8](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/346b8f8ef5aa10229ba3c5200faf6590aa26f180))
 
 ### [0.4.3](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.2...v0.4.3) (2023-05-30)
 

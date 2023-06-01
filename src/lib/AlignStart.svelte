@@ -1,5 +1,6 @@
 <script>
   export let size = '16';
+  export let role = 'img';
   export let color = 'currentColor';
   export let ariaLabel = 'align start';
 </script>
@@ -11,6 +12,7 @@
   class="bi bi-align-start"
   fill={color}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   on:click
   on:keydown
@@ -31,6 +33,7 @@
 [Go to Document](https://svelte-bootstrap-svg-icons.codewithshin.com/)
 ## Props
 @prop size = '16';
+@prop role = 'img';
 @prop color = 'currentColor';
 @prop ariaLabel = 'icon name';
 ## Event
