@@ -86,6 +86,13 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
+## Props
+
+- size = '16';
+- role = 'img';
+- color = 'currentColor';
+- ariaLabel = '0 circle fill';
+
 ## IDE support
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
