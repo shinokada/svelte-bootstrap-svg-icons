@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.6](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.5...v0.4.6) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([6bcff7e](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/6bcff7e6789803dd37d5fad825696fca3f98d43e))
+- add prop role="img" ([6bcff7e](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/6bcff7e6789803dd37d5fad825696fca3f98d43e))
 
 ### [0.4.5](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.4...v0.4.5) (2023-06-01)
 
