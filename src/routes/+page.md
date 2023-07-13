@@ -14,7 +14,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ## Repo
 
-[GitHub Repo](https://github.com/shinokada/svelte-awesome-icons)
+[GitHub Repo](https://github.com/shinokada/svelte-bootstrap-svg-icons)
 
 ## Original source
 
@@ -22,9 +22,9 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ## License
 
-[Svelte-Bootstrap-SVG-Icons License](https://github.com/shinokada/svelte-awesome-icons/LICENSE)
+[Svelte-Bootstrap-SVG-Icons License](https://github.com/shinokada/svelte-bootstrap-svg-icons/LICENSE)
 
-[Icons License](https://github.com/twbs/icons/blob/main/LICENSE)
+[twbs/icons License](https://github.com/twbs/icons/blob/main/LICENSE)
 
 ## Installation
 
@@ -133,7 +133,7 @@ All icons have aria-label. For example `BadgeAr` has `aria-label="badge ar"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<BadgeAr ariaLabel="Awesome Badge" />
+<BadgeAr ariaLabel="bootstrap-svg Badge" />
 ```
 
 ## Unfocusable icon
