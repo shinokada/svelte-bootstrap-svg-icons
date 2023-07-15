@@ -7851,7 +7851,7 @@
     "svelte": "^3.54.0 || ^4.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.36.0",
+    "@playwright/test": "^1.36.1",
     "@popperjs/core": "^2.11.8",
     "@sveltejs/adapter-auto": "^2.1.0",
     "@sveltejs/kit": "^1.22.3",
