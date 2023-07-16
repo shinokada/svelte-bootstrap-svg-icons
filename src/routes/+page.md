@@ -8,7 +8,7 @@
 <a href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-bootstrap-svg-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
 </div>
 
-1950+ SVG file icon components for Svelte. Svelte-bootstrap-svg-icons support major CSS frameworks using the `class` props.
+1950+ SVG File icon components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
