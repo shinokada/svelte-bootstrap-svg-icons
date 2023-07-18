@@ -26,7 +26,7 @@
   });
   let size="16";
 </script>
-
+<h1>Svelte Bootstrap SVG Icons: Icons</h1>
 <TableSearch
   placeholder="Search by icon name"
   hoverable={true}
