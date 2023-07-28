@@ -38,48 +38,20 @@ In a svelte file:
 
 ```html
 <script>
-  import { BadgeAr } from 'svelte-bootstrap-svg-icons';
+  import { Icon } from 'svelte-bootstrap-svg-icons';
 </script>
 
-<BadgeAr />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import BadgeAr from 'svelte-bootstrap-svg-icons/BadgeAr.svelte';
-</script>
-
-<BadgeAr />
-```
-
-If you are a TypeScript user, **install typescript version 5.0.0 or above.**
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="arrow-90deg-left" />
 ```
 
 ## Props
 
-- size = '16';
-- role = 'img';
-- color = 'currentColor';
-- ariaLabel = '0 circle fill';
+- @prop name;
+- @prop width = "16";
+- @prop height = "16";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -87,10 +59,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<BadgeAr size="40" />
+<Icon name="arrow-90deg-left" width="100" height="100" />
+```
+
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+
+```html
+<Icon name="arrow-90deg-left" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -98,7 +76,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BadgeAr color="#c61515" />
+<Icon name="arrow-90deg-left" color="#c61515" />
 ```
 
 ## CSS framworks suport
@@ -108,13 +86,13 @@ You can apply CSS framework color and other attributes directly to the icon comp
 Tailwind CSS example:
 
 ```html
-<BadgeAr class="h-24 w-24 text-blue-700 mr-4" />
+<Icon name="arrow-90deg-left" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<BadgeAr class="position-absolute top-0 px-1" />
+<Icon name="arrow-90deg-left" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -124,16 +102,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<BadgeAr class="text-blue-700 dark:text-red-500" />
+<Icon name="arrow-90deg-left" class="text-red-700 dark:text-green-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `BadgeAr` has `aria-label="badge ar"`.
+All icons have aria-label. For example `arrow-90deg-left` has `aria-label="arrow 90deg left"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<BadgeAr ariaLabel="bootstrap-svg Badge" />
+<Icon name="arrow-90deg-left" ariaLabel="bootstrap arrow 90 degree left" />
 ```
 
 ## Unfocusable icon
@@ -141,7 +119,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<BadgeAr tabindex="-1" />
+<Icon name="arrow-90deg-left" tabindex="-1" />
 ```
 
 ## Events
@@ -164,57 +142,49 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<BadgeAr tabindex="0" />
+<Icon name="arrow-90deg-left" tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { BadgeAr } from 'svelte-bootstrap-svg-icons';
-</script>
-
-<svelte:component this="{BadgeAr}" />
+<svelte:component this="{Icon}" name="arrow-90deg-left"/>
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { BadgeAr } from 'svelte-bootstrap-svg-icons';
+  import {Icon} from 'svelte-evil-icons';
   import { onMount } from 'svelte';
   const props = {
+    name: 'arrow-90deg-left',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new BadgeAr({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
+</script>
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-bootstrap-svg-icons`.
+Use `import {Icon, icons} from 'svelte-bootstrap-svg-icons';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-bootstrap-svg-icons';
+  import {Icon, icons} from 'svelte-bootstrap-svg-icons';
 </script>
 
-<Icon.BadgeAr />
-<Icon.ClipboardFill />
-
-<h1>Size</h1>
-<Icon.BadgeAr size="30" />
-<Icon.ClipboardFill size="40" />
-
-<h1>CSS HEX color</h1>
-<Icon.BadgeAr color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.BadgeAr class="text-blue-500" />
-<Icon.ClipboardFill class="text-pink-700" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
