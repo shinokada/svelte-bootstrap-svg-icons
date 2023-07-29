@@ -35,7 +35,7 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/replace_name/)
+[Go to Document](https://shinokada.github.io/svelte-bootstrap-svg-icons/)
 ## Props
 @prop name;
 @prop width = "16";
