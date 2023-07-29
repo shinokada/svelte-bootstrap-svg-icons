@@ -1,6 +1,7 @@
 {
   "name": "svelte-bootstrap-svg-icons",
   "version": "0.5.3",
+  "main": "dist/index.js",
   "description": "Svelte file icon components",
   "author": {
     "name": "Shinichi Okada",
