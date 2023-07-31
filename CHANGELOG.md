@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.6](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.5...v0.5.6) (2023-07-31)
+
+
+### Bug Fixes
+
+* component doc update ([e4986c4](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/e4986c40fb5dafdbb61704447bd402503a3e43b6))
+
 ### [0.5.5](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.4...v0.5.5) (2023-07-29)
 
 
