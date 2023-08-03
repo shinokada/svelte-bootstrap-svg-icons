@@ -1,6 +1,6 @@
 {
   "name": "svelte-bootstrap-svg-icons",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "main": "dist/index.js",
   "description": "Svelte file icon components",
   "author": {
