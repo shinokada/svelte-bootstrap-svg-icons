@@ -6,62 +6,54 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.5.6](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.5...v0.5.6) (2023-07-31)
 
-
 ### Bug Fixes
 
-* component doc update ([e4986c4](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/e4986c40fb5dafdbb61704447bd402503a3e43b6))
+- component doc update ([e4986c4](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/e4986c40fb5dafdbb61704447bd402503a3e43b6))
 
 ### [0.5.5](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.4...v0.5.5) (2023-07-29)
 
-
 ### Bug Fixes
 
-* update add-exports-to-package-json ([064aeb8](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/064aeb862fa5b338312b583a7ca7e42e501aba92))
+- update add-exports-to-package-json ([064aeb8](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/064aeb862fa5b338312b583a7ca7e42e501aba92))
 
 ### [0.5.4](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.3...v0.5.4) (2023-07-29)
 
-
 ### Bug Fixes
 
-* add main to package.json ([bcf400f](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/bcf400f914537e8edeb5519db16456e78e3e411c))
+- add main to package.json ([bcf400f](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/bcf400f914537e8edeb5519db16456e78e3e411c))
 
 ### [0.5.3](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.2...v0.5.3) (2023-07-29)
 
-
 ### Bug Fixes
 
-* component doc update ([f7e7732](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/f7e773272407cbe1a1f03cede7710cc97f2d8c22))
+- component doc update ([f7e7732](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/f7e773272407cbe1a1f03cede7710cc97f2d8c22))
 
 ### [0.5.2](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.1...v0.5.2) (2023-07-29)
 
-
 ### Bug Fixes
 
-* restProps position and docs props update ([f7d8d7e](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/f7d8d7ebbd6f292fd7d222edea1a1ec9bb477a12))
+- restProps position and docs props update ([f7d8d7e](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/f7d8d7ebbd6f292fd7d222edea1a1ec9bb477a12))
 
 ### [0.5.1](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.9...v0.5.1) (2023-07-28)
 
-
 ### Features
 
-* uses two files ([9c47b49](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/9c47b49ee1867bfd3a4b207228ff44160aa865a0))
+- uses two files ([9c47b49](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/9c47b49ee1867bfd3a4b207228ff44160aa865a0))
 
 ### [0.4.9](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.8...v0.4.9) (2023-07-20)
 
-
 ### Features
 
-* add size range ([8d1a1b5](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/8d1a1b5107ec42adfbaa004d33bdf4f23aa7cbfe))
-
+- add size range ([8d1a1b5](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/8d1a1b5107ec42adfbaa004d33bdf4f23aa7cbfe))
 
 ### Bug Fixes
 
-* add dark default ([b8c0498](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/b8c04985e420d5911bd58681f53e84b09b1b4259))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([7ed41f8](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/7ed41f84ef0119b230400fd3cbda3bba825dbea6))
-* update homepage ([7bdbf7a](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/7bdbf7a9f39bfc337a160e227419e2231fe76e25))
-* update license ([cdfbb9f](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/cdfbb9f9605e16101fd1fac63cb00e44da7431be))
-* update license ([4188980](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/41889809ec378c0c2a787d8737bbb9e9ea3af150))
-* update range ([cebc63b](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/cebc63bb1065c8e6bf6c4cacbd257c7c6fcfae62))
+- add dark default ([b8c0498](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/b8c04985e420d5911bd58681f53e84b09b1b4259))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([7ed41f8](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/7ed41f84ef0119b230400fd3cbda3bba825dbea6))
+- update homepage ([7bdbf7a](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/7bdbf7a9f39bfc337a160e227419e2231fe76e25))
+- update license ([cdfbb9f](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/cdfbb9f9605e16101fd1fac63cb00e44da7431be))
+- update license ([4188980](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/41889809ec378c0c2a787d8737bbb9e9ea3af150))
+- update range ([cebc63b](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/cebc63bb1065c8e6bf6c4cacbd257c7c6fcfae62))
 
 ### [0.4.8](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.4.7...v0.4.8) (2023-06-15)
 

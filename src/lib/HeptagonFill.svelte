@@ -1,0 +1,42 @@
+<script>
+  export let size = '16';
+  export let role = 'img';
+  export let color = 'currentColor';
+  export let ariaLabel = 'heptagon fill';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  class="bi bi-heptagon-fill"
+  fill={color}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 16 16"
+>
+  <path
+    fill-rule="evenodd"
+    d="M7.779.052a.5.5 0 0 1 .442 0l6.015 2.97a.5.5 0 0 1 .267.34l1.485 6.676a.5.5 0 0 1-.093.415l-4.162 5.354a.5.5 0 0 1-.395.193H4.662a.5.5 0 0 1-.395-.193L.105 10.453a.5.5 0 0 1-.093-.415l1.485-6.676a.5.5 0 0 1 .267-.34L7.779.053z"
+  />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-bootstrap-svg-icons.vercel.app)
+## Props
+@prop export let size = '16';
+@prop export let role = 'img';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'heptagon fill';
+-->
