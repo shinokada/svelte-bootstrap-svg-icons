@@ -1,7 +1,9 @@
 <script>
-  export let size = '16';
-  export let role = 'img';
-  export let color = 'currentColor';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '16';
+  export let role = ctx.role || 'img';
+  export let color = ctx.color || 'currentColor';
   export let ariaLabel = 'type h1';
 </script>
 
@@ -26,7 +28,7 @@
   viewBox="0 0 16 16"
 >
   <path
-    d="M8.637 13V3.669H7.379V7.62H2.758V3.67H1.5V13h1.258V8.728h4.62V13h1.259zm5.329 0V3.669h-1.244L10.5 5.316v1.265l2.16-1.565h.062V13h1.244z"
+    d="M7.648 13V3H6.3v4.234H1.348V3H0v10h1.348V8.421H6.3V13h1.348ZM14 13V3h-1.333l-2.381 1.766V6.12L12.6 4.443h.066V13H14Z"
   />
 </svg>
 
@@ -34,8 +36,8 @@
 @component
 [Go to docs](https://svelte-bootstrap-svg-icons.vercel.app)
 ## Props
-@prop export let size = '16';
-@prop export let role = 'img';
-@prop export let color = 'currentColor';
+@prop export let size = ctx.size || '16';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
 @prop export let ariaLabel = 'type h1';
 -->
