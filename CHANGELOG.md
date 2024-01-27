@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.2](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.6.1...v0.6.2) (2023-09-21)
 
-
 ### Features
 
-* add context ([a08d4b4](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/a08d4b417af710e7c35b55e0cc565ab3ecef7257))
-* add sidebar menu ([f9594dc](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/f9594dc9e2ef1732aeebbfe12cbdc7f6153aae2b))
+- add context ([a08d4b4](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/a08d4b417af710e7c35b55e0cc565ab3ecef7257))
+- add sidebar menu ([f9594dc](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/f9594dc9e2ef1732aeebbfe12cbdc7f6153aae2b))
 
 ### [0.6.1](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.5.7...v0.6.1) (2023-08-30)
 

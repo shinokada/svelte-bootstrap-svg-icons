@@ -79,7 +79,6 @@ Use the `size` prop to change the size of icons.
 <BadgeAr size="40" />
 ```
 
-
 ## Setting Global Icon using setContext
 
 You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components. Here's how you can do it:
@@ -92,7 +91,7 @@ You can establish global icon preferences in your Svelte application using `setC
   const iconCtx = {
     strokeWidth: '1.5',
     size: '100', // Icon size in pixels
-    color: '#ff4488', // Icon color in hexadecimal or CSS color name
+    color: '#ff4488' // Icon color in hexadecimal or CSS color name
   };
   setContext('iconCtx', iconCtx);
 </script>
