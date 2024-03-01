@@ -14,7 +14,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ## Docs
 
-Please see the [Svelte Bootstrap SVG Icons documentation](https://svelte-bootstrap-svg-icons.codewithshin.com/) for more details on using the icons in your Svelte application.
+See the [Svelte Bootstrap SVG Icons documentation](https://svelte-bootstrap-svg-icons.codewithshin.com/) to learn more.
 
 ## Icons
 

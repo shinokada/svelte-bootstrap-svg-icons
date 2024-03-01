@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.1](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.6.2...v1.0.1) (2024-01-27)
 
-
 ### Bug Fixes
 
-* NavHamburger class="ml-3 m-0 lg:hidden md:block" ([19ad7fd](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/19ad7fd3c29041553171f32af3fe7cd4b4b43346))
+- NavHamburger class="ml-3 m-0 lg:hidden md:block" ([19ad7fd](https://github.com/shinokada/svelte-bootstrap-svg-icons/commit/19ad7fd3c29041553171f32af3fe7cd4b4b43346))
 
 ### [0.6.2](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v0.6.1...v0.6.2) (2023-09-21)
 
