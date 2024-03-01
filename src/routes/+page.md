@@ -337,4 +337,4 @@ Use `import * as Icon from 'svelte-bootstrap-svg-icons`.
 
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
