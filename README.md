@@ -8,13 +8,27 @@
 <a href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-bootstrap-svg-icons.svg" alt="npm" ></a>
 </div>
 
-1950+ SVG File icon components for Svelte.
+2050+ SVG File icon components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
 ## Docs
 
 See the [Svelte Bootstrap SVG Icons documentation](https://svelte-bootstrap-svg-icons.codewithshin.com/) to learn more.
+
+## Installation
+
+### For Svelte 5 or later
+
+```bash
+pnpm i -D svelte-bootstrap-svg-icons
+```
+
+### For Svelte 4 or 5
+
+```bash
+pnpm i -D svelte-bootstrap-svg-icons@v1-latest
+```
 
 ## Icons
 

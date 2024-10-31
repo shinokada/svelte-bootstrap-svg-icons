@@ -37,3 +37,16 @@
   {/if}
   <circle cx="8" cy="8" r="8" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-bootstrap-svg-icons.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop title
+@prop desc
+@prop ariaLabel = 'circle fill'
+@prop ...restProps
+-->

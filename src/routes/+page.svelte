@@ -64,9 +64,6 @@
   </SupportBanner>
 
   <h1 class="my-8 flex justify-center">Svelte Bootstrap SVG Icons</h1>
-  <h2 class="my-8 flex justify-center">
-    <A href="/how-to-use" class="underline">This is a demo page. Please read How to use page.</A>
-  </h2>
   <HomeCards cards={filteredCards as CardType[]} />
   <h2 class="my-8 flex justify-center">Info</h2>
   <HomeCards cards={newInfo as CardType[]} />

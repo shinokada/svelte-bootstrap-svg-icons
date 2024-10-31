@@ -1,5 +1,23 @@
 # svelte-bootstrap-svg-icons
 
+## 2.0.0
+
+### Major Changes
+
+- BREAKING CHANGE: svelte 5 runes compatible
+
+  ## How to install for svelte 5 and later
+
+  ```bash
+  pnpm i -D svelte-bootstrap-svg-icons
+  ```
+
+  ## How to install for svelte 4 and 5
+
+  ```bash
+  pnpm i -D svelte-bootstrap-svg-icons@v1-latest
+  ```
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [1.0.3](https://github.com/shinokada/svelte-bootstrap-svg-icons/compare/v1.0.2...v1.0.3) (2024-03-01)
