@@ -17,10 +17,13 @@
 
   const npmVersion: NpmVersionPropsType = {
     packageName: 'svelte-bootstrap-svg-icons',
-    logo: 'npm',
+    label: 'Svelte Bootstrap SVG Icons',
+    logo: 'svelte',
+    tag:'v1-latest',
+    logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-bootstrap-svg-icons',
-      'https://github.com/shinokada/svelte-bootstrap-svg-icons'
+      'https://www.npmjs.com/package/svelte-bootstrap-svg-icons?activeTab=versions'
     ]
   };
 
