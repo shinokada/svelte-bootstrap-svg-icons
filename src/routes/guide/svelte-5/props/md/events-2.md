@@ -1,0 +1,1 @@
+<Activity withEvents onclick="{handleClick}" />

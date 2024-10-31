@@ -1,0 +1,8 @@
+- size = ctx.size || '24' 
+- role = ctx.role || 'img'
+- color = ctx.color || 'currentColor' 
+- title
+- desc
+- class
+- ariaLabel =  <file name>
+- ...restProps 
