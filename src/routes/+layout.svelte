@@ -218,7 +218,7 @@
       <SidebarGroup>
         <SidebarBrand>
           <span class="self-center whitespace-nowrap text-lg font-semibold dark:text-white"
-            >Runes Webkit</span
+            >Svelte Bootstrap SVG Icons</span
           >
         </SidebarBrand>
         {#each newSidebarList as { name, Icon, children, href }}

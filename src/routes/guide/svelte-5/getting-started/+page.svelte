@@ -49,7 +49,7 @@
   });
 </script>
 
-<H1>Getting Started - Runes Webkit v2</H1>
+<H1>Getting Started - Svelte Bootstrap SVG Icons v2</H1>
 
 <div class="my-8 flex gap-2">
   <StaticBadge {...sponsor} />

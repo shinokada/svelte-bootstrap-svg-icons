@@ -8,7 +8,7 @@
   });
 </script>
 
-<H1>Props - Runes Webkit v1</H1>
+<H1>Props - Svelte Bootstrap Icons v1</H1>
 
 <H2>Prop</H2>
 

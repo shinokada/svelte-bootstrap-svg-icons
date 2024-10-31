@@ -8,7 +8,7 @@
   });
 </script>
 
-<H1>Setting Global Icon - Runes Webkit</H1>
+<H1>Setting Global Icon - Svelte Bootstrap SVG Icons</H1>
 
 <p>
   You can create global icon preferences in your Svelte application using <Code>setContext</Code>.
