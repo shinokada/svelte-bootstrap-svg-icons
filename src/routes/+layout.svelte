@@ -166,6 +166,7 @@
           class="ml-6 mr-4 dark:text-white"
           size="lg"
         />
+        <Darkmode class="m-0 p-2" />
         <div class="relative">
           <Dropdown
             {dropdownStatus}
@@ -189,9 +190,6 @@
                   <GithubSolid />
                 </DropdownLi>
               {/if}
-              <DropdownLi>
-                <Darkmode class="m-0 p-2" />
-              </DropdownLi>
             </DropdownUl>
           </Dropdown>
         </div>
