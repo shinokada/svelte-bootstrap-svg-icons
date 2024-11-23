@@ -19,7 +19,7 @@
     packageName: 'svelte-bootstrap-svg-icons',
     label: 'Svelte Bootstrap SVG Icons',
     logo: 'svelte',
-    tag:'v1-latest',
+    tag: 'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-bootstrap-svg-icons',
