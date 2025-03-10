@@ -1,5 +1,5 @@
 <script lang="ts">
-  import '../app.pcss';
+  import '../app.css';
   import { sineIn } from 'svelte/easing';
   import type { Component } from 'svelte';
   import { page } from '$app/stores';
