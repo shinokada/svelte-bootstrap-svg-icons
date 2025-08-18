@@ -1,1 +1,1 @@
-<Activity withEvents on:click={handleClick}/> 
+<Activity withEvents on:click={handleClick}/>

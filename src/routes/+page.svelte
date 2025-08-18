@@ -46,7 +46,7 @@
     svelteKitVersion: __SVELTEKIT_VERSION__,
     svelteRuneHighlight: __SVELTE_RUNE_HIGHLIGHT_VERSION__,
     viteVersion: __VITE_VERSION__,
-    tailwindcssVersion: __TAILWINDCSS_VERSION__,
+    tailwindcssVersion: __TAILWINDCSS_VERSION__
   };
 </script>
 

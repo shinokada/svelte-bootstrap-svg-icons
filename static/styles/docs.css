@@ -25,12 +25,12 @@
 }
 
 #mainContent > h2 {
-  @apply mb-4 mt-8 text-2xl font-bold text-gray-900 dark:text-white;
+  @apply mt-8 mb-4 text-2xl font-bold text-gray-900 dark:text-white;
 }
 
 #mainContent > h3,
 #mainContent > h4 {
-  @apply mb-4 mt-8 text-xl font-bold text-gray-900 dark:text-white;
+  @apply mt-8 mb-4 text-xl font-bold text-gray-900 dark:text-white;
 }
 
 #mainContent > p {
@@ -40,7 +40,7 @@
 #mainContent > p > a,
 #mainContent > ul > li > a,
 #mainContent > ol > li > a {
-  @apply font-medium text-gray-900 underline decoration-primary-700 decoration-1 underline-offset-2 dark:text-white dark:decoration-primary-700;
+  @apply decoration-primary-700 dark:decoration-primary-700 font-medium text-gray-900 underline decoration-1 underline-offset-2 dark:text-white;
 }
 
 #mainContent > p > a:hover,
@@ -117,7 +117,7 @@ pre[class*='language-'] {
 /* without preview */
 .highlight pre[class*='language-'] {
   overflow: auto;
-  @apply m-0 mb-8 mt-4 rounded-xl bg-gray-50 p-6 pt-6 text-sm dark:bg-gray-800;
+  @apply m-0 mt-4 mb-8 rounded-xl bg-gray-50 p-6 pt-6 text-sm dark:bg-gray-800;
 }
 
 /* when after preview */
@@ -345,8 +345,9 @@ pre.language-svelte .token.comment {
   padding: initial;
 }
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
-    Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
   @apply m-0;
 }
 #carbonads {
@@ -421,7 +422,7 @@ pre.language-svelte .token.comment {
 }
 
 .DocSearch-Button-Key {
-  @apply m-0 w-auto bg-none pb-0 pt-1 text-xs font-normal text-gray-500 shadow-none dark:text-gray-400;
+  @apply m-0 w-auto bg-none pt-1 pb-0 text-xs font-normal text-gray-500 shadow-none dark:text-gray-400;
 }
 
 .DocSearch-Button .DocSearch-Search-Icon {
@@ -445,7 +446,7 @@ pre.language-svelte .token.comment {
 }
 
 .DocSearch-Container {
-  @apply bg-gray-900 bg-opacity-50 dark:bg-opacity-80;
+  @apply bg-opacity-50 dark:bg-opacity-80 bg-gray-900;
 }
 
 .DocSearch-Modal {
@@ -461,7 +462,7 @@ pre.language-svelte .token.comment {
 }
 
 .DocSearch-Input {
-  @apply text-sm text-gray-500 shadow-none focus:shadow-none focus:!outline-none focus:!ring-0 dark:bg-gray-700 dark:text-white;
+  @apply text-sm text-gray-500 shadow-none focus:shadow-none focus:!ring-0 focus:!outline-none dark:bg-gray-700 dark:text-white;
 }
 
 .DocSearch-LoadingIndicator svg,
@@ -486,7 +487,7 @@ pre.language-svelte .token.comment {
 }
 
 .DocSearch-Hit a {
-  @apply rounded-lg bg-gray-50 shadow-none dark:bg-gray-600 dark:hover:bg-primary-600;
+  @apply dark:hover:bg-primary-600 rounded-lg bg-gray-50 shadow-none dark:bg-gray-600;
 }
 
 .DocSearch-Hit[aria-selected='true'] .DocSearch-Hit-Select-Icon,
