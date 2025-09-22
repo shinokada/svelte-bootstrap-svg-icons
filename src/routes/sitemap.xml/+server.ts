@@ -44,27 +44,7 @@ const pages: Page[] = [
     priority: '0.5'
   },
   {
-    loc: 'how-to-use',
-    changefreq: 'weekly',
-    priority: '0.5'
-  },
-  {
-    loc: 'no-tabs',
-    changefreq: 'weekly',
-    priority: '0.5'
-  },
-  {
-    loc: 'quick-start',
-    changefreq: 'weekly',
-    priority: '0.5'
-  },
-  {
-    loc: 'three-tabs',
-    changefreq: 'weekly',
-    priority: '0.5'
-  },
-  {
-    loc: 'three-tabs-sizebytailwind',
+    loc: 'icons',
     changefreq: 'weekly',
     priority: '0.5'
   }
