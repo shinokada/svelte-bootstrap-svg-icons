@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://svelte-bootstrap-svg-icons.codewithshin.com/sitemap.xml
