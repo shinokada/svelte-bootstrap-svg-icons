@@ -1,5 +1,11 @@
 # svelte-bootstrap-svg-icons
 
+## 3.0.1
+
+### Patch Changes
+
+- fix: change let to const
+
 ## 3.0.0
 
 ### Major Changes
