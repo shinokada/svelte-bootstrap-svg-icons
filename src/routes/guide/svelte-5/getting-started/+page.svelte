@@ -40,7 +40,10 @@
   const downloads: NpmDownloadPropsType = {
     packageName: 'svelte-bootstrap-svg-icons',
     logo: 'npm',
-    link: ['https://www.npmjs.com/package/svelte-bootstrap-svg-icons']
+    link: [
+      'https://www.npmjs.com/package/svelte-bootstrap-svg-icons',
+      'https://svelte-bootstrap-svg-icons.codewithshin.com/'
+    ]
   };
 
   const modules = import.meta.glob('./md/*.md', {
